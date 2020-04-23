@@ -7,14 +7,14 @@ request.onreadystatechange = function() {
         console.log('Le temps est ' + response.current_condition.condition + '.');
         switch (response.current_condition.condition) {
           case 'Ensoleillé':
-              meteoTxt.innerHTML = 'Le temps est ensoleillé.';
+              meteoTxt.innerHTML = 'Le temps est ensoleillé. On peut aller faire une belle promeunade mon bébé <3';
             break;
 
           case 'Nuit claire':
               meteoTxt.innerHTML = 'La nuit est claire.';
             break;
           case 'Eclaircies':
-              meteoTxt.innerHTML = 'Il y a des éclaircies.';
+              meteoTxt.innerHTML = 'Il y a des éclaircies. On peut aller faire une belle promeunade mon bébé <3';
             break;
 
           default:
