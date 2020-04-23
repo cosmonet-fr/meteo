@@ -1,0 +1,31 @@
+body {
+  padding: .5em 5em;
+  background-color: #eee;
+}
+
+nav {
+  float: right;
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+}
+
+li:hover {
+  text-decoration: underline;
+}
+
+.blue {
+  color: royalblue;
+}
+
+.red {
+  color: mediumvioletred;
+}
+
+.purple {
+  color: purple;
+}
+
+/*# sourceMappingURL=style.css.map */
