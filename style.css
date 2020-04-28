@@ -1,31 +1,19 @@
+h1 {
+  text-align: center;
+}
+
 body {
   padding: .5em 5em;
   background-color: #eee;
 }
 
-nav {
-  float: right;
+section {
+  display: flex;
+  justify-content: center;
 }
 
-li {
-  list-style: none;
-  cursor: pointer;
-}
-
-li:hover {
-  text-decoration: underline;
-}
-
-.blue {
-  color: royalblue;
-}
-
-.red {
-  color: mediumvioletred;
-}
-
-.purple {
-  color: purple;
+.metoBox {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
